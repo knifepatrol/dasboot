@@ -1,0 +1,55 @@
+/*######     ###     ######
+##     ##   ## ##   ##    ##
+##     ##  ##   ##  ##
+##     ## ##     ##  ######
+##     ## #########       ##
+##     ## ##     ## ##    ##
+########  ##     ##  ####*/
+/*
+/* Highly Opinionated CSS Reboot */
+/* written in Sassy CSS by @sciencebymail */
+/* implement at your own risk */
+/* https://github.com/sciencebymail/dasboot */
+/* line 20, /Users/bonsai/git/dasboot/scss/dasboot.scss */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 32, /Users/bonsai/git/dasboot/scss/dasboot.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 34, /Users/bonsai/git/dasboot/scss/dasboot.scss */
+body {
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+/* line 40, /Users/bonsai/git/dasboot/scss/dasboot.scss */
+p {
+  margin: 0;
+}
+
+/* line 43, /Users/bonsai/git/dasboot/scss/dasboot.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* line 48, /Users/bonsai/git/dasboot/scss/dasboot.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 52, /Users/bonsai/git/dasboot/scss/dasboot.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=../dasboot.map */

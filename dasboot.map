@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "scss/dasboot.css",
+	"sources": [
+		"scss/dasboot.scss"
+	],
+	"sourcesContent": [
+		"/*######     ###     ######\n##     ##   ## ##   ##    ##\n##     ##  ##   ##  ##\n##     ## ##     ##  ######\n##     ## #########       ##\n##     ## ##     ## ##    ##\n########  ##     ##  ####*/\n/*\n/* Highly Opinionated CSS Reboot */\n/* written in Sassy CSS by @sciencebymail */\n/* implement at your own risk */\n/* https://github.com/sciencebymail/dasboot */\n// beta version ?.??\n\n\n// utilities\n$h: 'h1, h2, h3, h4, h5, h6';\n$l: 'ol, ul';\n\nhtml {\n  font-size: 62.5%;\n  box-sizing: border-box;\n\n  // Supposedly prevent adjustments of font size after\n  // orientation changes in IE and iOS\n  // needs to be tested\n\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n }\n\n*, *:before, *:after { box-sizing: inherit; }\n\nbody {\n  top: 0;\n  left: 0;\n  margin: 0 auto;\n }\n\np { margin: 0; }\n\n\n #{$h} {\n   margin: 0;\n   font-weight: normal;\n }\n\n #{$l} { list-style: none; }\n\n hr {  }\n\n img {\n   max-width: 100%;\n   height: auto;\n }\n"
+	],
+	"mappings": "AAAA;;;;;;2BAM2B;AAC3B;mCACmC;AACnC,4CAA4C;AAC5C,gCAAgC;AAChC,8CAA8C;;AAQ9C,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAM;EACjB,UAAU,EAAE,UAAW;EAMvB,oBAAoB,EAAE,IAAK;EAC3B,wBAAwB,EAAE,IAAK;CAC/B;;;AAEF,AAAA,CAAC,EAAE,AAAC,CAAA,AAAA,OAAO,EAAE,AAAC,CAAA,AAAA,MAAM,CAAC;EAAE,UAAU,EAAE,OAAQ;CAAI;;;AAE/C,AAAA,IAAI,CAAC;EACH,GAAG,EAAE,CAAE;EACP,IAAI,EAAE,CAAE;EACR,MAAM,EAAE,MAAO;CACf;;;AAEF,AAAA,CAAC,CAAC;EAAE,MAAM,EAAE,CAAE;CAAI;;;AAGjB,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,CAAtB;EACE,MAAM,EAAE,CAAE;EACV,WAAW,EAAE,MAAO;CACrB;;;AAED,AAAA,EAAE,EAAE,AAAA,EAAE,CAAN;EAAE,UAAU,EAAE,IAAK;CAAI;;;AAIvB,AAAA,GAAG,CAAC;EACF,SAAS,EAAE,IAAK;EAChB,MAAM,EAAE,IAAK;CACd",
+	"names": []
+}

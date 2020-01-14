@@ -1,0 +1,55 @@
+/*######     ###     ######
+##     ##   ## ##   ##    ##
+##     ##  ##   ##  ##
+##     ## ##     ##  ######
+##     ## #########       ##
+##     ## ##     ## ##    ##
+########  ##     ##  ####*/
+/*
+/* Highly Opinionated CSS Reboot */
+/* written in Sassy CSS by @sciencebymail */
+/* implement at your own risk */
+/* https://github.com/sciencebymail/dasboot */
+// beta version ?.??
+
+
+// utilities
+$h: 'h1, h2, h3, h4, h5, h6';
+$l: 'ol, ul';
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  // Supposedly prevent adjustments of font size after
+  // orientation changes in IE and iOS
+  // needs to be tested
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+ }
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+ }
+
+p { margin: 0; }
+
+
+ #{$h} {
+   margin: 0;
+   font-weight: normal;
+ }
+
+ #{$l} { list-style: none; }
+
+ hr {  }
+
+ img {
+   max-width: 100%;
+   height: auto;
+ }
