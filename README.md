@@ -1,2 +1,2 @@
 # dasboot
-Highly opinionated CSS reboot/reset
+Opinionated CSS reboot/reset written in Sassy CSS by @knifepatrol
